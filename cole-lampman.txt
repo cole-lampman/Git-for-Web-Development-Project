@@ -1,0 +1,96 @@
+Link to finished codepen: https://codepen.io/EmVolts/pen/rNxdvvR?editors=1100
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML?
+     Semantic tags give reference to what type of text will be present.
+    2. What is HTML used for? 
+    HTML is used to mark up text in a webpage
+    3. What is an attribute and where do we put it? 
+    An attribute is a word that contorls the elements behavior (modifies). You place an attribute in the opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    An h1 tag is used for the heading. Only use h1 one time per page as it indicates the most important information.
+    5. Name two tags that have required attributes
+    <img> and <input>
+    6. What do we put in the head of our HTML document? 
+    Metadata
+    7. What is an id? 
+    A unique identifier that referes to ONE element
+    8. What elements can I add an id to? 
+    Any HTML element can have an id.
+    9. How many times can I use the same id on a page? 
+    You can only use an id ONCE. An id is UNIQUE
+    10. What is a class? 
+    A class is a way to group elements so they can be styled at the same CSS location
+    11. What elements can I add a class to? 
+    You can add classes to all elements
+    12. How many times can I use the same class on a page? 
+    As many times as needed
+    13. How do I get my link to open in a new tab?
+    add target="_blank" to the anchor
+    14. What is the alt attribute in the image tag used for? 
+    The alt attribute in the image tag is used to define what the picture is using text.
+    15. How do I reference an id?
+    To reference an id simply use #. eg #img{}
+    16. What is the difference between a section and a div?
+    A section means that the content inside is grouped together. A div defines a division of content. Div is not semantic, while section is semantic
+    17. What is CSS used for?
+     Styling html
+    18. How to we select an element? Example - every h2 on the page.
+     To select every h2 on a page, use h2{} in CSS
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+     An ID can ony reference a single item (using #) and a class can be used to reference multiple items (using "."). Use an ID when refereing to a UNIQUE object and a class when there is a group of objects.
+    20. How do we select classes in CSS?
+     with a . before the class name e.g. .human{} for the class of human.
+    21. How do we select a p element with a single class of “human””?
+     .human p{}
+    22. What is a parent child selector? When would this be useful?
+     a parent child selector is ">". When you want to select all elements that are a direct child of the parent
+    23. How do you select all links within a div with the class of sidebar?
+     .sidebar a{}
+    24. What is a pseudo selector?
+     e.g. div a:hover{}
+    25. What do we use the change the spacing between lines?
+     line-height:
+    26. What do we use to change the spacing between letters?
+     letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+     text-transform:uppercase; text-transform:lowercase; text-transform:capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+     yourdiv{border:1px dotted black;}
+    29. How do I select everything on the page?
+     ctrl + a
+    30. How do I write a comment in CSS?
+     /**/
+    31. How do I find out what file I am in, when I am using the command line?
+     $pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+     $ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+     rm <file>: No warning or confirmation. No way to reverse.
+    34. Why should I use version control?
+     It helps teams stay organized.
+    35. How often should I commit to github?
+     whenever you get a major componet working, every ~20 minutes
+    36. What lsis the command we would use to push our repo up to github?
+     git push -u origin 'first-last' (for the first time) git push after
+    37. Walk me through Lambda's git flow. 
+     Fork, add colaborator, copy url, open terminal, cd to where you want to put the folder, git clone folder, cd into folder, git checkout - b 'first-last',work on files, git add, git commit -m, git push -u origin 'first-last',pull request,TL merges
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element? 
+    Inline elements do not force a new line. Block elements force a line break
+    2. What happens when an element is positioned absolutely? 
+    It is removed from the normal document flow, and no space is created for the element in the page layout. It is placed relative to its closest positioned ancestor if one exists. Else it is placed relative to the initial containing block. The final position is determined by the top,right,bottom and left values.
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    Set the position to absolute
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    elements that are block by default: <p><h1-h6><section>
+    elements that are display inline by default: <span> <a>
+    element that is display inline-block by default: <button>
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    The box model says that if you have an element with a width and height, you have a layer of padding wrapped around that element,then a border, and another layer of margin wrapped around the border. The fix for the box model to repspect the width given  is box-sizing: border-box
+
+
