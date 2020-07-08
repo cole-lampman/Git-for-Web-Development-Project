@@ -91,6 +91,6 @@ Stretch Questions
     elements that are display inline by default: <span> <a>
     element that is display inline-block by default: <button>
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-    The box model says that if you have an element with a width and height, you have a layer of padding wrapped around that element, and another layer of margin wrapped around the padding. The fix for the box model to repspect the width given  is box-sizing: border-box
+    The box model says that if you have an element with a width and height, you have a layer of padding wrapped around that element,then a border, and another layer of margin wrapped around the border. The fix for the box model to repspect the width given  is box-sizing: border-box
 
 
