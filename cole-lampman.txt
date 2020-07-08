@@ -76,7 +76,7 @@ Copy the questions below into the first-lastname.txt file on your github repo - 
     36. What lsis the command we would use to push our repo up to github?
      git push -u origin 'first-last' (for the first time) git push after
     37. Walk me through Lambda's git flow. 
-     Fork, add colaborator, copy url, open terminal, cd to where you want to put the folder, git clone folder, cd into folder, git checkout - b 'first-last',work on files, git add, git commit -m, git push -u origin 'first-last'
+     Fork, add colaborator, copy url, open terminal, cd to where you want to put the folder, git clone folder, cd into folder, git checkout - b 'first-last',work on files, git add, git commit -m, git push -u origin 'first-last',pull request,TL merges
 
 Stretch Questions
 
